@@ -1,0 +1,32 @@
+﻿
+
+
+ul{
+    margin-left:90px;
+}
+
+tr{
+    text-align:center;
+}
+caption{
+    text-align:center;
+    font-weight:bold;
+    font-size:120%;
+    margin-bottom:5px;
+}
+    
+table{
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+
+th
+{
+    background-color:gray;
+}
