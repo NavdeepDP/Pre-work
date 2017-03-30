@@ -1,0 +1,56 @@
+﻿a:link{
+    color:blue;
+    text-decoration:underline;
+}
+
+a:visited{
+    color:green;
+    text-decoration:underline;
+}
+
+a:hover{
+    font-size:larger;
+    font-weight:bold;
+    text-decoration:underline;
+
+}
+
+a:active{
+    text-decoration:none;
+    font-weight:normal;
+    color:deeppink;
+}
+
+#page_font{
+    font-family:'Comic Sans MS';
+}
+#res_name{
+    text-align:center;
+    font-family:ArimaMadurai-Regular;
+
+}
+
+#res_links{
+    font-size:12px;
+    
+}
+
+#link_1{
+    padding-left:1em;
+}
+#link_2{
+    padding-left:2em;
+}
+#link_3{
+    padding-left:2em;
+}
+#page_footer{
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    
+}
+ @font-face {
+    font-family: "ArimaMadurai-Regular";
+    src: url("ArimaMadurai-Regular.ttf");
+ }

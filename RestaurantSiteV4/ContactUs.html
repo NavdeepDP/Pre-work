@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+	<meta charset="utf-8" />
+    <link href="restaurantStyles.css" type="text/css" rel="stylesheet" />
+    <style>
+        table{
+            border:0;
+            width:60%;
+            font-size:13px;
+            font-weight:bold;
+         }
+        td{
+            height:20px;
+        }
+       
+        tbody td:nth-child(odd){
+            height:20px;
+            text-align:right;
+        }
+
+        tbody td:nth-child(even)
+        {
+            padding-left:12px;
+        }
+
+        input[type=text]{
+            width:60%;
+            border:2px solid black;
+        }
+        select{
+            width:60%;
+            border-radius:5px;
+            border:2px solid black;
+        }
+        textarea{
+            width:60%;
+            height:150px;
+            border:2px solid black;
+        }
+        input[type=radio]{
+            border:2px solid black;
+        }
+        .button{
+            width:40%;
+            border:2px solid black;
+            font-weight:bold;
+            border-radius:5px;
+                     
+        }
+
+    </style>
+</head>
+<body>
+    <span id="page_font">
+        <h1 id="res_name">Barbeque Nation</h1>
+        <hr />
+        <div id="res_links">
+            <a href="HomePage.html" id="link_1">Home</a>
+            <a href="MenuPage.html" id="link_2">Menu</a>
+            <a href="ContactUs.html" id="link_3">Contact us</a>
+        </div>
+        
+        <hr />
+
+        <table>
+
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="First name"></td>
+            </tr>
+
+            <tr>
+                <td> Email:</td>
+                <td><input type="text" name="email" /></td>
+            </tr>
+
+            <tr>
+                <td > Phone:</td>
+                <td><input type="text" name="phone"/></td>
+            </tr>
+
+            <tr>
+                <td >Reason for Inquiry:</td>
+                <td>
+                    <select name="list of Reasons" >
+                        <option value="value1">Catering</option>
+                        <option value="value2">Private Party</option>
+                        <option value="value3">Feedback</option>
+                        <option value="value4">Other</option>
+                    </select>
+                </td>
+            </tr>
+          
+            <tr>
+                <td > Additional Information:</td>
+                <td><textarea name="Additionalnfo"></textarea></td>
+            </tr>
+
+            <tr>
+                <td >Have you been to the restaurant?:</td>
+                <td>
+                    <input type="radio" name="answer"value="No" checked/>No
+                    <input type="radio" name="answer" value="yes"/>Yes
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td >Best days to contact you:</td>
+                <td>
+                    <input type="checkbox" name="mychoice" value="M"/>M
+                    <input type="checkbox" name="mychoice" value="T" />T
+                    <input type="checkbox" name="mychoice" value="W" />W
+                    <input type="checkbox" name="mychoice" value="Th" />Th
+                    <input type="checkbox" name="mychoice" value="F" />F
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> </td>
+                <td align="center"><input type="submit" value="Send Request" class="button"/><br /></td>
+            </tr>
+        </table>
+
+        </form>
+        
+        <hr />
+
+        <p id="page_footer">
+            1121 W 69th Street, Minnesota, 44343 <br />
+            9848998493
+        </p>
+
+    </span>
+
+</body>
+</html>
