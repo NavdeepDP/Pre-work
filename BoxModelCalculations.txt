@@ -1,0 +1,19 @@
+Total Height= margin + border + padding + Height + padding + border +margin
+
+            = 20+1+10+150+10+1+20 = 212
+
+
+
+
+Total Width =  margin + border + padding + Width + padding + border +margin 
+
+             = 20+1+10+400+10+1+20= 462
+
+
+Browser Calculated Height = border + padding + Height + padding + border
+                             
+                         = 1+10+150+10+1= 172
+
+
+Browser Calculated Width =  border + padding + width + padding + border
+                         = 1+10+400+10+1 = 422
